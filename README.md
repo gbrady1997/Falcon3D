@@ -6,5 +6,6 @@ to compile and run use this command while in the mac unix terminal while in the 
 
 javac -cp "lib/*" -d out $(find src examples -name "*.java") && java -XstartOnFirstThread --enable-native-access=ALL-UNNAMED -cp "out:lib/*" Main
 
+
 the test programs will be found in the examples/ directory this is where you can test, update or write your own Main.java files and your own main methods
 
